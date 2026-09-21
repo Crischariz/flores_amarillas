@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#ffe49b" />
+<title>Para mi Pricesa 🌻 21 de septiembre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<button id="sound" class="sound" aria-label="Activar o silenciar sonido">🔊</button>
+
+<section id="loader">
+  <div class="loader-sun" id="loaderSun"></div>
+  <h1 id="loaderName">Para mi Pricesa</h1>
+  <p class="loader-sub">El <b>21 de septiembre</b> se regalan flores amarillas 🌻</p>
+  <p class="loader-sub light">…y estoy preparando tu campo de girasoles</p>
+  <div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+  <span class="progress-text" id="progressText">0%</span>
+</section>
+
+<main id="field">
+  <div class="sky">
+    <h2 class="title">Andrea 💛</h2>
+    <div class="counter"><b id="counter">0</b><span> / <span id="total">15</span> girasoles</span></div>
+    <p class="hint">Toca cada girasol y descubre tu mensaje</p>
+    <div class="hill hill-back"></div>
+    <div class="hill hill-front"></div>
+    <div id="sparkles"></div>
+    <div id="flowers"></div>
+  </div>
+  <div class="ground"></div>
+</main>
+
+<div id="intro" class="hidden">
+  <div class="backdrop"></div>
+  <div class="card-box intro-box">
+    <div class="card-flower" id="introFlower"></div>
+    <p class="intro-big">Hoy es el día de las flores amarillas 💛</p>
+    <p class="intro-text">
+      El <b>21 de septiembre</b> se regalan flores amarillas como símbolo de
+      amor y de que <b>alguien en el fondo de su corazón no se olvida de ti</b>.
+    </p>
+    <p class="intro-text">
+      Y como yo nunca me olvido de ti, esta es siempre mi historia contigo:
+      <b>te regalo flores amarillas porque te amo, Pricesa 🌻</b>
+    </p>
+    <button id="introBtn">Empezar 🌻</button>
+  </div>
+</div>
+
+<div id="card" class="hidden">
+  <div class="backdrop"></div>
+  <div class="card-box">
+    <div class="card-flower" id="cardFlower"></div>
+    <p class="card-text" id="cardText"></p>
+    <button id="cardBtn">Siguiente 🌻</button>
+  </div>
+</div>
+
+<section id="finale">
+  <div class="finale-content">
+    <h2 class="finale-title">Te amo, Andrea</h2>
+    <p class="finale-sub">mi Pricesa · mi amor · mi niña</p>
+    <p class="finale-meaning">Hoy te di un campo de girasoles, porque así como el girasol siempre busca la luz, mi corazón siempre te busca a ti.</p>
+    <p class="finale-date">21 · septiembre · 🌻</p>
+    <button id="replay">Recorrerlo otra vez</button>
+  </div>
+  <div id="petals"></div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
